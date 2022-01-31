@@ -1,0 +1,14 @@
+## Getting Started
+- Clone the repo `git clone https://github.com/Cayvogikonyo/mojagate.git`
+- Run `cd mojagate`
+- Copy `.env.example` to `.env`
+- Generate a laravel app key `php artisan key:generate` 🔑
+- Set the `DB_` environment variables in `.env` to your liking 
+- Set the `API_EMAIL` environment variables in `.env` to your Mojagate Email
+- Set the `API_PASS` environment variables in `.env` to your Mojagate Password
+- Create a database with the name specified in `DB_DATABASE`
+- `composer install` ☕️
+- `npm run dev` (or the yarn equivalents)
+- Migrate the database with `php artisan migrate:fresh`
+- Start the application! `php artisan serve` 
+- You can now create a user and login to view or send SMSes 🚀
